@@ -30,12 +30,14 @@ h3{
     line-height: 1rem;
 }
 main{
-    background-image: url(/Airport-Page/img/background_small.jpg);
+    background-image: url(/img/background_small.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    min-height: 500px;
 }
 .nav{
     background-color: #33333399;
